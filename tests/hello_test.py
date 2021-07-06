@@ -7,7 +7,6 @@ class TestHello(unittest.TestCase):
 
     def test_hello(self):
         """default argument"""
-
         self.assertEqual("Hello World", hello.greeting())
 
     def test_hello_arg(self):
