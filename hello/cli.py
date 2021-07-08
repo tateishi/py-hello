@@ -1,6 +1,5 @@
 import argparse
-import core
-
+import hello
 
 
 def main():
@@ -8,7 +7,7 @@ def main():
     parser.add_argument("name", help="name for hello")
     args = parser.parse_args()
 
-    core.say_hello(args.name)
+    hello.say_hello(args.name)
 
 
 if __name__ == "__main__":
